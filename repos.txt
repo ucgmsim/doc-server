@@ -4,5 +4,5 @@ visualization @ rewrite @ visualisation
 workflow @ pegasus @ workflow
 IM_calculation @ master @ IM
 NSHM2022DB @ main @ nshmdb
-pygmt_helpr @ main @ pygmt_helper
+pygmt_helper @ main @ pygmt_helper
 mera @ main @ mera
