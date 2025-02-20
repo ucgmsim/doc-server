@@ -35,4 +35,18 @@ while read -r line; do
     repo_name=$(echo "$line" | cut -d'@' -f1 | xargs)  # Extract repo name (trim spaces)
     repo_path=$(echo "$line" | cut -d'@' -f3 | xargs)
     echo "$REPOS_DIR/$repo_name/$repo_path"
-done < /repos.txt | xargs pydoctor --project-name "QuakeCoRE" --html-output="$DOCS_DIR" --docformat=numpy --project-version="$(date +%Y-%m-%dT%H:%M)" --intersphinx=https://docs.python.org/3/objects.inv
+done < /repos.txt | xargs pydoctor --project-name "QuakeCoRE" \
+    --html-output="$DOCS_DIR" \
+    --docformat=numpy \
+    --project-version="$(date +%Y-%m-%dT%H:%M)" \
+    --intersphinx=https://docs.python.org/3/objects.inv \
+    --intersphinx=https://numpy.org/doc/stable/objects.inv \
+    --intersphinx=https://docs.scipy.org/doc/scipy/objects.inv \
+    --intersphinx=https://pandas.pydata.org/pandas-docs/stable/objects.inv \
+    --intersphinx=https://docs.xarray.dev/en/stable/objects.inv \
+    --intersphinx=https://matplotlib.org/stable/objects.inv \
+    --intersphinx=https://geopandas.org/en/stable/objects.inv \
+    --intersphinx=https://pyproj4.github.io/pyproj/stable/objects.inv \
+    --intersphinx=https://fiona.readthedocs.io/en/stable/objects.inv \
+    --intersphinx=https://shapely.readthedocs.io/en/stable/objects.inv \
+    --intersphinx=https://www.pygmt.org/latest/objects.inv \
