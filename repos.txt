@@ -3,4 +3,4 @@ velocity_modelling @ main @ velocity_modelling
 visualization @ rewrite @ visualisation
 workflow @ pegasus @ workflow
 IM_calculation @ master @ IM
-NSHM2022DB @ master @ nshmdb
+NSHM2022DB @ main @ nshmdb
