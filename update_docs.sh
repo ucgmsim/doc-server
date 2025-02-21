@@ -50,3 +50,4 @@ done < /repos.txt | xargs pydoctor --project-name "QuakeCoRE" \
     --intersphinx=https://fiona.readthedocs.io/en/stable/objects.inv \
     --intersphinx=https://shapely.readthedocs.io/en/stable/objects.inv \
     --intersphinx=https://www.pygmt.org/latest/objects.inv \
+    --intersphinx=https://networkx.org/documentation/stable/objects.inv
