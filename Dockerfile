@@ -26,4 +26,4 @@ RUN echo "*/30 * * * * /update_docs.sh" | crontab -
 COPY nginx.conf /etc/nginx/nginx.conf
 
 # Start nginx and cron in the foreground
-CMD /start.sh
+CMD ["/start.sh"]
