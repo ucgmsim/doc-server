@@ -6,3 +6,4 @@ IM_calculation @ master @ IM
 NSHM2022DB @ main @ nshmdb
 pygmt_helper @ main @ pygmt_helper
 mera @ main @ mera
+nzgmdb @ main @ nzgmdb
