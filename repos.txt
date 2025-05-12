@@ -7,3 +7,4 @@ NSHM2022DB @ main @ nshmdb
 pygmt_helper @ main @ pygmt_helper
 mera @ main @ mera
 nzgmdb @ main @ nzgmdb
+seismic_hazard_analysis @ main @ seismic_hazard_analysis
